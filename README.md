@@ -1,3 +1,3 @@
-# This is the main header
+# Run Buddy Website
 
-This a paragraph about run buddy
+Looking for a Run Buddy? Look no more!
