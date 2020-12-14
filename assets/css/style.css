@@ -51,9 +51,10 @@ footer {
 
 footer h2 {
     display: inline;
-    color: #024e76;
+    color: #39a6b2;
     font-size: 30px;
     margin: 0;
+    
 }
 
 footer div {
@@ -64,7 +65,7 @@ footer div {
 }
 
 footer a {
-    color: #024476;
+    color: #024e76;
 }
 
 section {
@@ -75,10 +76,10 @@ section {
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+    height: 600px;
 }
 /* Hero Style End */ 
 
