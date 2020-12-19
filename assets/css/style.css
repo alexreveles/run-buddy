@@ -10,7 +10,7 @@
   }
   
   
-  /* HEADER / NAV BAR STYLES START */
+  /* HEADER / NAV BAR STYLES START */ 
   
   header {
     padding: 20px 35px;
@@ -18,13 +18,23 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
   }
-  
+  /* Adding shadows to headings*/
   header h1 {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     margin: 0;
     font-size: 36px;
     color: #fce138;
+  
   }
   
   header a {
@@ -43,11 +53,13 @@
     align-items: center;
     list-style: none;
   }
-  
+  /* Adding shadows to headings*/
   header nav ul li a {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+   
   }
   
   /* HEADER / NAVBAR STYLES END */
@@ -73,6 +85,7 @@
   footer div {
     line-height: 1.5;
     text-align: right;
+    text-align: center;
   }
   
   footer a {
@@ -94,6 +107,8 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
   }
   
   .hero-cta {
@@ -104,20 +119,24 @@
     font-size: 18px;
     line-height: 1.2;
   }
-  
+  /* Adding shadows to headings*/
   .hero-cta h2 {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    
   }
   
   .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
   }
   
   .hero-form h3 {
@@ -135,7 +154,8 @@
     font-size: 16px;
     color: #024e76;
     width: 100%;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
+    border-radius: 10px; 
   }
   
   .hero-form label {
@@ -148,6 +168,7 @@
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
   } 
   /* HERO STYLES END */
   
@@ -329,6 +350,7 @@
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
   }
   
   .contact-form button {
@@ -339,6 +361,7 @@
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
   }
   
   .contact-info a {
@@ -494,12 +517,15 @@
   .flex-row {
     display: flex;
   }
+
+  
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
       justify-content: center;
+      position: relative;
     }
   
     header h1 {
