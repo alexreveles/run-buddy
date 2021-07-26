@@ -4,7 +4,7 @@
 
 # Run Buddy Inc.
 
-## Purpose
+## Description
 A website that offers fitness training services and more, it is a friendly user website where you are able to select your trainer and see who they are and there specialty in fitness. Allowing users to select the correct run buddy for there level of experience. 
 
 ## Built With
