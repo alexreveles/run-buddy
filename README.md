@@ -1,7 +1,3 @@
-
-
-![](./assets/images/screenshot1.png) 
-
 # Run Buddy Inc.
 
 ## Description
@@ -10,6 +6,8 @@ A website that offers fitness training services and more, it is a friendly user 
 ## Built With
 * HTML
 * CSS
+
+![](./assets/images/screenshot1.png) 
 
 ## Website
  https://alexreveles.github.io/run-buddy/
